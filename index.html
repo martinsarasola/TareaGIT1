@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-div">
+        <h1 class="title">Contacto</h1>
+        <form action="/enviar" method="POST" id="main-form">
+          <label for="name">Nombre: </label>
+          <input type="text" name="name" id="name" />
+          <label for="name">Apellido: </label>
+          <input type="text" name="surname" id="surname" />
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" />
+          <label for="number">Número de contacto: </label>
+          <input type="number" name="number" id="number" />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
