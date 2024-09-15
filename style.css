@@ -40,9 +40,10 @@ h2 {
 }
 
 #main-form button {
-  background-color: white;
+  background-color: #606e42;
   border: none;
   border-radius: 7px;
   padding: 7px 40px;
   margin-top: 10px;
+  color: white;
 }
