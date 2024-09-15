@@ -1,5 +1,6 @@
 body {
   font-family: Cambria, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #fff8e8;
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
 }
 .main-div {
   width: 50%;
-  background-color: #c021ab;
+  background-color: #674636;
   padding: 7vh 0;
   border-radius: 10px;
 }
